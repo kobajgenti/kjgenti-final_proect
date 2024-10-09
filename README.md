@@ -55,6 +55,18 @@ To analyze the data, I plan to use the following modeling approaches:
   - **Logistic Regression:** To evaluate the probability of receiving a fine based on license plate type while controlling for other variables.
   - **Poisson Regression:** To model the count of fines per vehicle in relation to license plate type and other predictors.
 
+- **Random Forest Classification**
+  - Use ensemble learning to identify factors most predictive of receiving fines
+  - Can handle non-linear relationships and provide feature importance rankings
+
+- **Geographically Weighted Regression (GWR)**
+  - Analyze spatial variability in the relationship between license plate types and fine rates
+  - Account for geographic differences in enforcement patterns across Georgia
+
+- **Propensity Score Matching**
+  - Control for confounding variables when comparing fine rates between custom and standard plates
+  - Reduce bias in estimating the effect of plate type on fine likelihood
+ 
 *Note:* I may refine these techniques as I explore the data further during the project.
 
 ---
