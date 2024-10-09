@@ -7,7 +7,7 @@
 
 ### 1. Description of the Project
 
-I developed **Borbalo** in October 2022 as a mobile application to help Georgian drivers stay informed about traffic fines. Borbalo provides real-time notifications of fines, detailed violation histories, and insights into traffic enforcement patterns across different regions. Over the past two years, Borbalo has collected extensive data on traffic fines, including those associated with both custom and standard license plates.
+I developed [**Borbalo**](https://borbalo.ge/) in October 2022 as a mobile application to help Georgian drivers stay informed about traffic fines. Borbalo provides real-time notifications of fines, detailed violation histories, and insights into traffic enforcement patterns across different regions. Over the past two years, Borbalo has collected extensive data on traffic fines, including those associated with both custom and standard license plates.
 
 This project aims to investigate the common belief in Georgia that custom license plates are less likely to receive fines compared to standard plates. By analyzing the fine distribution data from Borbalo, I seek to determine whether this myth holds true and to provide evidence-based insights into traffic enforcement practices.
 
