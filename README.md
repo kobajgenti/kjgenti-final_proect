@@ -32,10 +32,8 @@ This project aims to investigate the common belief in Georgia that custom licens
 
 - **Data to be Collected:**  
   - **License Plate Information:** Type (custom vs. standard), alphanumeric sequences.
-  - **Fine Details:** Number of fines issued, types of violations (e.g., speeding, illegal parking), fine amounts.
+  - **Fine Details:** Number of fines issued, types of violations (e.g., speeding, illegal parking), fine amounts, fine locations, fine type.
   - **Vehicle Information:** Make, model, year, vehicle type.
-  - **Driver Demographics:** Age, gender (if available and ethically permissible).
-  - **Violation Details:** Location (coordinates or designated areas), date and time of each violation.
 
 - **Data Collection Method:**  
   I will use secure SQL queries to export the necessary data from Borbalo's database, ensuring data integrity and compliance with privacy standards. All data will be anonymized to protect individual privacy.
@@ -51,7 +49,7 @@ To analyze the data, I plan to use the following modeling approaches:
 
 - **Inferential Statistics:**  
   - **Chi-Square Tests:** To assess the association between license plate type and the occurrence of fines.
-  - **T-Tests or Mann-Whitney U Tests:** To compare the average number of fines between custom and standard plates, depending on data distribution.
+  - **T-Tests:** To compare the average number of fines between custom and standard plates, depending on data distribution.
 
 - **Regression Analysis:**  
   - **Logistic Regression:** To evaluate the probability of receiving a fine based on license plate type while controlling for other variables.
